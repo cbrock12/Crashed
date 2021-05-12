@@ -5,7 +5,7 @@ using UnityEngine;
 public class Audio_Adjustment : MonoBehaviour
 {
     private static readonly string AudioPref = "AudioPref";
-    private float AudioFloat = 1;
+    private float AudioFloat;
     public AudioSource AudioSource;
 
     public void updateVol(float volume)
